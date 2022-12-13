@@ -23,4 +23,4 @@ class InFileMeta(viewsets.ModelViewSet):
     serializer_class = InFileDataSerializers
     pagination_class = StandardResultsSetPagination
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['original_file_id']
+    filterset_fields = ['original_file']

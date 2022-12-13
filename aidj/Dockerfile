@@ -5,7 +5,7 @@ RUN mkdir -p /usr/src/red-app/
 
 WORKDIR /usr/src/red-app/
 
-COPY ./ ./
+COPY .. ./
 RUN pip install --upgrade pip
 
 COPY requirements.txt .

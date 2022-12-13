@@ -12,7 +12,7 @@ services:
       POSTGRES_DB: redapp
 
   backend:
-    build: ./
+    build: ..
     privileged: true
     ports:
       - 8080:8080
